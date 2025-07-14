@@ -49,7 +49,7 @@ A layered, extensible .NET 8 Web API for managing users and music playlists, wit
    - Configure SMTP under `SmtpSettings`
 3. **Database migration**  
    ```bash
-   cd MusicApp.Infrastructure
+   cd MusicApp.Api
    dotnet ef migrations add Initial --project ../MusicApp.Infrastructure/MusicApp.Infrastructure.csproj --context AppDbContext
    dotnet ef database update --project ../MusicApp.Infrastructure/MusicApp.Infrastructure.csproj --context AppDbContext
    ```
