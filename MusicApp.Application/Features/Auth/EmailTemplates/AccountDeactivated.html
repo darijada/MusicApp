@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicApp Account Deactivated</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            margin: 40px auto;
+            padding: 30px;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .logo img {
+                height: 140px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="{{LOGO_IMAGE}}" alt="MusicApp Logo" />
+        </div>
+
+        <h1>Account Deactivated</h1>
+
+        <p>Hello <strong>{{USERNAME}}</strong>,</p>
+
+        <p>
+            We're sorry to inform you that your MusicApp account has been deactivated, but we respect your decision.
+        </p>
+
+        <p>
+            If this was a mistake or if you'd like to reactivate your account in the future, please don't hesitate to reach out to our support team for assistance.
+        </p>
+
+        <p>
+            Rest assured, your data has been preserved securely, but you will no longer have access to your playlists, preferences, or saved music unless reactivated.
+        </p>
+
+        <div class="footer">
+            &copy; {{CURRENT_YEAR}} MusicApp. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

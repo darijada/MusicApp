@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to MusicApp</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            margin: 40px auto;
+            padding: 30px;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .logo img {
+                height: 140px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="{{LOGO_IMAGE}}" alt="MusicApp Logo" />
+        </div>
+
+        <h1>Welcome to MusicApp, <strong>{{USERNAME}}</strong>!</h1>
+
+        <p>
+            Your email has been successfully confirmed and your account is now active.
+        </p>
+
+        <p>
+            We're excited to have you on board. Get ready to explore and enjoy your music experience!
+        </p>
+
+        <p>
+            If you have any questions or need help, just reply to this email — we're here for you.
+        </p>
+
+        <div class="footer">
+            &copy; {{CURRENT_YEAR}} MusicApp. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
