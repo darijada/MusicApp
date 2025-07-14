@@ -51,7 +51,7 @@ A layered, extensible .NET 8 Web API for managing users and music playlists, wit
    ```bash
    cd MusicApp.Infrastructure
    dotnet ef migrations add Initial --project ../MusicApp.Infrastructure/MusicApp.Infrastructure.csproj --context AppDbContext
-   dotnet ef migrations add Shares2 --project ../MusicApp.Infrastructure/MusicApp.Infrastructure.csproj --context AppDbContext
+   dotnet ef database update --project ../MusicApp.Infrastructure/MusicApp.Infrastructure.csproj --context AppDbContext
    ```
 4. **Run the API**  
    ```bash
