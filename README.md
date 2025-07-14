@@ -64,8 +64,8 @@ A layered, extensible .NET 8 Web API for managing users and music playlists, wit
 ### Project Structure
 
 ```
-/MusicApp.Core             → Domain entities & interfaces  
-/MusicApp.Application      → Use cases (Commands/Queries) & DTOs  
+/MusicApp.Core             → Domain entities  
+/MusicApp.Application      → Interfaces, Use cases (Commands/Queries) & DTOs  
 /MusicApp.Infrastructure   → EF Core, Identity, external services  
 /MusicApp.Api              → ASP.NET Core controllers & HTTP pipeline  
 ```
